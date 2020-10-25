@@ -1,0 +1,50 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+img {
+    width: 100%;
+}
+
+.contaner{
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    background-color: #544F53;
+    align-items: flex-end;
+    justify-content: space-around;
+    text-align: left;
+    height: 500px;
+}
+
+.element{
+    width: 18%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.img{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.poster{
+    position: relative;
+    width: 100%;
+}
+
+.poster>p{
+    position: absolute;
+    top : 0;
+    padding: 5px;
+    background-color: #AB1F83 ;
+}
+.element>h1{
+    padding: 20px 0;
+    color: whitesmoke;
+
+}
